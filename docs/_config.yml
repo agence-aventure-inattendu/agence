@@ -17,8 +17,8 @@ title: L'Agence de l'Aventure et de l'Inattendu
 email: pierre.trendel@posteo.net   
 description: >- # this means to ignore newlines until "baseurl:"
   Entreprise contributive<br>aux biens communs
-baseurl: "/agence" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://inattendu.cc" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 github_url: https://github.com/agence-aventure-inattendu/
