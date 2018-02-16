@@ -1,0 +1,74 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title | escape }}</title>
+    <link rel="stylesheet" href=" {{ "/assets/main.css" | relative_url }}">
+  </head>
+  <body>
+    
+    <!-- Global container : Full width with right and left gutter -->
+    <div class="container home grid-frame">
+
+        <div class="grid-y main"> 
+            <div class="home-header header  cell"> 
+                <span class="tagline"> {{ site.description }}</span>
+	            <div class="contact cell"> 
+	                <ul class="menu">  
+	                  <li>
+	                    <a href="{{ "/contact.html" | relative_url }}">contact</a>
+	                  </li>
+	                  <li>
+	                    <a href="{{github_url}}" target="_blank">github</a>
+	                  </li>
+
+	                </ul>
+	            </div>
+            </div>
+            <div class="home-quote cell"> 
+              <div class="plus">
+                <div class="quote">
+                  {{ content }}
+                </div>
+              </div>
+            </div>
+            <div class="home-logo cell"> 
+              <div class="logo">  
+                  <img src="assets/images/logo.svg">
+              </div>  
+               
+            </div>
+            <div class="home-menu cell"> 
+                <div class="menu-container">  
+                  <ul class="menu grid-x"> 
+                  	{% for item in site.data.navigation.items %}
+			            <li class="cell auto {% if item.slug == page.section %}active{% endif %}">
+			              <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+			            </li>          
+			          {% endfor %}
+                  </ul>
+              </div> 
+            </div>
+
+              
+            
+        </div>  
+
+    </div>
+    
+    <div class="home-illustrations"> 
+		<img src="{{ "/assets/images/illustrations.png" | relative_url }}">
+		<a href="https://fr.wikipedia.org/wiki/John_Tenniel" target="_blank">Sir John Tenniel</a>
+    </div>  
+
+    <script src="{{ "/assets/js/jquery.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/jquery.overlayScrollbars.min.js" | relative_url }}"></script>
+    
+    <script src="{{ "/assets/js/what-input.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/foundation.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/app.js" | relative_url }}"></script>
+
+  </body>
+</html>

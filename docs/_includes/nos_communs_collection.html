@@ -1,0 +1,25 @@
+<div class="commons-container"> 
+  <ul class="accordion" data-accordion data-allow-all-closed="true">
+  	
+  	{% for item in site.nos_communs %}
+
+    <li class="accordion-item" data-accordion-item>
+      <!-- Accordion tab title -->
+      <a href="#" class="accordion-title">
+        <span>{{ item.title }}</span></a>
+
+      <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+      <div class="accordion-content" data-tab-content>
+        <div class="commons-description"> 
+          <h2>Description</h2>
+          {{ item.content }}
+          <h2>Ressource</h2>
+          <a href="{{ item.ressource }}">{{ item.ressource }}</a>
+        </div>
+        {% include menu_contribution.html %}
+    </li>
+
+    {% endfor %}
+    
+  </ul>
+</div>  

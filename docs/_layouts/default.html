@@ -1,0 +1,9 @@
+<!doctype html>
+{% include header.html %}
+    {{ content }}
+
+    {% if page.url contains "contact.html" %}
+      {% include contact_form.html %}
+    {% endif %}
+
+{% include footer.html %}

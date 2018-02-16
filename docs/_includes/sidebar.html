@@ -1,0 +1,45 @@
+<div class="grid-y sidebar">
+  <div class="cell small-3">
+    <div class="logo">  
+        <a href="{{site.url}}">
+          <img src="{{ "/assets/images/logo.svg" | relative_url }}">
+        </a>
+    </div>  
+    <div class="menu-container">  
+        <ul class="menu grid-x"> 
+          {% for item in site.data.navigation.items %}
+            <li class="cell auto {% if item.slug == page.section %}active{% endif %}">
+              <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            </li>          
+          {% endfor %}
+        </ul>
+    </div>  
+  </div>
+
+  <div class="cell auto sub-menu-container">
+    <div class="sub-menu">
+      <ul>
+        {% for item in site.data.navigation.items %}
+          {% if item.slug == page.section and item.subitems != null %}
+            {% for subitem in item.subitems %}
+              <li class="{% if subitem.url == page.url %}active{% endif %}">
+                <a href="{{ subitem.url | relative_url }}">{{ subitem.title }}</a>
+              </li>
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    
+  </div>
+
+  <div class="cell  infos">
+    <div class="mentions">
+      <div class="illustrations"> 
+          <img src="{{ "/assets/images/illustrations.png" | relative_url }}">
+      </div>  
+      <p>Sauf mentions contraites, l'ensemble des contenus publiés sur le site sont en licence Creative Commons CC BY SA 4.0</p>
+    </div>
+  </div>
+
+</div> 

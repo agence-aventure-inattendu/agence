@@ -1,0 +1,32 @@
+items:
+
+- title: Projet
+  slug: projet
+  url: /agence.html
+  subitems : 
+    - title : L'agence
+      url : /agence.html
+    - title : Fonctionnement
+      url : /fonctionnement.html
+    - title : Membres
+      url : /membres.html
+    - title : Contact
+      url : /contact.html
+
+- title: Communs
+  slug: communs
+  url: /communs.html
+  subitems : 
+    - title : Communs ?
+      url: /communs.html
+    - title : Communs soutenus
+      url : /nos-communs.html
+
+- title: Contribution
+  slug: contribution
+  url: /contribution.html
+  subitems : 
+    - title : Contribution ?
+      url : /contribution.html
+    - title : Journal
+      url : /journal.html
