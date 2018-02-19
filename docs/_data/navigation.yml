@@ -21,6 +21,8 @@ items:
       url: /communs.html
     - title : Communs soutenus
       url : /nos-communs.html
+    - title : Glossaire
+      url : /glossaire.html
 
 - title: Contribution
   slug: contribution

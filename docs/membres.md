@@ -5,12 +5,12 @@ section: projet
 
 # Les membres de l'Agence
 
-L'Agence fonctionne grâce à l'implication de membres [contributeurs actifs et de contributeurs ponctuels]({{ site.baseurl }}{% link fonctionnement.md %}). 
+L'Agence fonctionne grâce à l'implication de membres [contributeurs actifs et de soutiens]({{ site.baseurl }}{% link fonctionnement.md %}). 
 Les membres actifs désignent parmi eux un représentant qui porte alors le pseudonyme de Mr Northover.
 
 ## Les contributeurs actifs
 
-Mr Northover : Pierre Trendel
+**Mr Northover** : [Pierre Trendel](mr.northover@posteo.net)
 
 *Dernière mise à jour : 16/02/2018*
 
