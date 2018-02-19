@@ -7,7 +7,7 @@ title : "L'idée derrière le projet de l'Agence"
 
 L'Agence de l'Aventure et de l'Inattendu est une **entreprise contributive aux biens communs**.
 
-**Entreprise**, au sens éthymologique du terme, parce qu'elle réunit des personnes qui poursuivent ensemble un objectif, relève ensemble le défi de penser un système économique différent.
+**Entreprise**, au sens étymologique du terme, parce qu'elle réunit des personnes qui poursuivent ensemble un objectif, relèvent ensemble le défi de penser un système économique différent.
 
 **Contributive**, parce que son objectif est de faire vivre, développer et créer des ressources en toute autonomie d'agir et de penser.
 
