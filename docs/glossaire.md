@@ -15,7 +15,7 @@ La communauté regroupe l’ensemble des personnes qui contribuent à entretenir
 Le code social d’un commun est le document par lequel la communauté définit la ressource pour laquelle elle oeuvre, exprime son objet en tant que groupe (raison d’être et d’agir), et expose les règles de son fonctionnement.
 
 ## Gouvernance
-La gouvernance regroupe l’ensemble des règles d’accès et d’usages de la ressource ainsi que les procédés et méthodes de décisions collectives qui permettent à la communauté de les définir. Elle doit permettre à minima : d’assurer la pérennité de la ressource d'empêcher quiconque, interne ou externe à la communauté, d’en limiter l’accès et l’usage pour lui-même ou un groupe restreint sans que cela soit justifiable pour la préservation de la ressource
+La gouvernance regroupe l’ensemble des règles d’accès et d’usages de la ressource ainsi que les procédés et méthodes de décisions collectives qui permettent à la communauté de les définir. Elle doit permettre à minima : d’assurer la pérennité de la ressource d'empêcher quiconque, interne ou externe à la communauté, d’en limiter l’accès et l’usage pour lui-même ou un groupe restreint sans que cela soit justifiable pour la préservation de la ressource.
 
 ## Usagers
 Est usager toute personne ou structure qui régulièrement ou de manière ponctuelle, librement ou commercialement utilise tout ou partie de la ressource pour mener à bien une action extérieure à la ressource elle-même. L’usager peut-être par ailleurs contributeur.
